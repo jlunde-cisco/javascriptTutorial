@@ -4,9 +4,18 @@
 // querySelector('any css'); - selects single
 // querySelectorAll('any css') - selects all
 
+// GET ELEMENT BY ID 
+const titleID = document.getElementById('Title');
+console.log(titleID)
+titleID.style.color = 'purple'
+
+
+// Grabs all the items by a given tag in an 'array-like' list
+const tagItems = document.getElementsByTagName('li');
+console.log(tagItems);
 
 const listItem = document.querySelector('li.special');
-console.log(listItem)
+console.log(listItem);
 //listItem.style.color = 'red'
 
 
@@ -24,6 +33,10 @@ classItemList.forEach(function(item){
 //console.log(listItem[0]);
 //listItem[0].style.color = 'blue'
 
+
+
+
+// -------------Johns Stuff --------------------------------------------
 // const result = document.querySelector('#result');
 // result.style.backgroundColor = 'blue';
 // 
