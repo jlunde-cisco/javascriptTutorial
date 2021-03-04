@@ -24,12 +24,6 @@ classItemList.forEach(function(item){
 //console.log(listItem[0]);
 //listItem[0].style.color = 'blue'
 
-
-
-
-
-
-
 // const result = document.querySelector('#result');
 // result.style.backgroundColor = 'blue';
 // 
